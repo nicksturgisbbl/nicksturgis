@@ -131,7 +131,7 @@ body {
     align-items: center;
 }
 .picture {
-    height: 50%;
+    height: 40%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -150,7 +150,7 @@ body {
     background-color: #bebebe;
     width: 80%;
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 .titles {
     line-height: 1.5rem;
