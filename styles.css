@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+body {
+    font-family: 'Poppins';
+    font-size: 14px;
+    overflow-y: hidden;
+}
+/* .background {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(142deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 49%, rgba(23,72,149,1) 100%);  
+}
+.card {
+    height: 80%;
+    width: 80%;
+    box-shadow: 1px 3px 10px rgba(5, 5, 5, 0.2);
+    background-color: #ffffff41;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.header {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.identity {
+    font-weight: 700;
+    margin-left: 1rem;
+    font-size: 14px;
+}
+.name {
+    color: #174895
+}
+.title {
+    color: #cf1b39;
+}
+.company {
+    font-weight: 700;
+}
+.links {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.addcontact{
+    width: 80%;
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #174895;
+    font-size: 20px;
+    text-decoration: none;
+}
+.addcontact:hover {
+    color: #cf1b39;
+    cursor: pointer;
+}
+.website {
+    width: 80%;
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #174895;
+    font-size: 20px;
+    text-decoration: none;
+}
+.website:hover {
+    color: #cf1b39;
+    cursor: pointer;
+}
+.linkedin {
+    width: 80%;
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #174895;
+    font-size: 20px;
+    text-decoration: none;
+}
+.linkedin:hover {
+    color: #cf1b39;
+    cursor: pointer;
+} */
+.background {
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    background-color: #bebebe;
+    align-items: center;
+}
+.picture {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bebebe;
+}
+.profilepic {
+    max-height: 75%;
+    max-width: 75%;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    box-shadow: 0px 0px 6px 0px #000000;
+    object-fit: contain;
+}
+.bodytext {
+    background-color: #bebebe;
+    width: 80%;
+    display: flex;
+    margin-top: 1rem;
+}
+.titles {
+    line-height: 1.5rem;
+}
+.links {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 1px #000000;
+    text-decoration: none;
+}
+.contact:hover {
+    cursor: pointer;
+}
+.bbl {
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 1px #000000;
+    text-decoration: none;
+}
+.bbl:hover {
+    cursor: pointer;
+}
+.linkedin {
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 1px #000000;
+    text-decoration: none;
+}

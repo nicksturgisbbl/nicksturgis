@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 15.3.1//EN
+N:Sturgis;Nick;;;
+FN:Nick Sturgis
+ORG:BBL Construction Services;
+EMAIL;type=INTERNET;type=WORK;type=pref:nsturgis@bblinc.com
+TEL;type=CELL;type=VOICE;type=pref:+1 (518) 431-9480
+TEL;type=WORK;type=VOICE:(518) 452-8200\;4171
+TEL;type=WORK;type=FAX:(518) 640-6424
+item1.ADR;type=HOME;type=pref:;;302 Washington Avenue Extension;Albany;NY;12203;United States
+item1.X-ABADR:us
+END:VCARD
